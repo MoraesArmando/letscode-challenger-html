@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- TOPO -->
-    <div id="topo">
-      <div id="nome"><h1>Kevin Paterson</h1></div>
-      <div id="profissao"><p>SOFTWARE ENGENEER</p></div>
-    </div>
+    <header>
+      <h1>Kevin Paterson</h1>
+      <p id="profissao">SOFTWARE ENGENEER</p>
+    </header>
     <!-- FIM TOPO -->
     <!-- MEIO -->
     <div id="meio">
       <!-- FIM CONTEUDO PRINCIPAL -->
-      <div id="conteudo-principal">
-        <section>
-          <h2>Summary</h2>
+      <section>
+        <article>
+          <div class="boerder-bottom">
+            <h2>Summary</h2>
+          </div>
           <p>
             A senior professional software engineer with 12 years of experience
             in application design and development with an innovate concept to
@@ -36,153 +37,186 @@
             leverage my strengths in a Devops or Engineering capacity for a
             mutually rewarding experience.
           </p>
-        </section>
-        <section>
-          <article>
+        </article>
+        <article>
+          <div class="boerder-bottom">
             <h2>Experience</h2>
-            <h3>SOFTWARE ENGINEER - Team Lead</h3>
-            <h3>Microsoft Corporation - Redmond, Washington</h3>
-            <p>Feb 2019 - Present</p>
-            <ul>
-              <li>
-                Developed .NET code for publishing and consuming messages using
-                RabbitMQ.
-              </li>
-              <li>
-                Developed deployment scripts from Git repository to GCP App
-                Engine.
-              </li>
-              <li>Developed and deploy Docker conteiner on Kubernetes.</li>
-              <li>
-                Implemented the ETL provess to migrate legacy data to SQL
-                database.
-              </li>
-              <li>
-                Defined the data storage strategy and implementation roadmaps.
-              </li>
-              <li>
-                Designed the information architecture and model of an
-                orfanization's assets.
-              </li>
-              <li>
-                Advised and evaluated data retention and governance using cloud
-                technologies.
-              </li>
-            </ul>
-          </article>
-          <article>
-            <h3>Sr. SOFTWARE DEVELOPER</h3>
-            <h3>Deloitte - London, UK</h3>
-            <p>Feb 2015 - jun 2017</p>
-            <ul>
-              <li>
-                Designed REST Web Service in C# and Java using Layer pattern.
-              </li>
-              <li>Defined SOAP Web Services using Postman an Fiddler.</li>
-              <li>
-                Built containerized web servers, load balancers and DNS Using
-                Docker.
-              </li>
-              <li>
-                Developed automantion scripts using Powershell, VBScript and
-                Java.
-              </li>
-            </ul>
-          </article>
-        </section>
-        <section>
-          <h2>Education</h2>
-          <article>
-            <h3>MASTER OF COMPUTER SCIENCE</h3>
-            <h3>Stevens Institute of Technology - New Jersey</h3>
-            <ul>
-              <li>Minor in Information Engineering</li>
-            </ul>
-          </article>
+          </div>
+          <h3>SOFTWARE ENGINEER - Team Lead</h3>
+          <h3>Microsoft Corporation - Redmond, Washington</h3>
+          <span>Feb 2019 - Present</span>
+          <ul>
+            <li>
+              Developed .NET code for publishing and consuming messages using
+              RabbitMQ.
+            </li>
+            <li>
+              Developed deployment scripts from Git repository to GCP App
+              Engine.
+            </li>
+            <li>Developed and deploy Docker conteiner on Kubernetes.</li>
+            <li>
+              Implemented the ETL provess to migrate legacy data to SQL
+              database.
+            </li>
+            <li>
+              Defined the data storage strategy and implementation roadmaps.
+            </li>
+            <li>
+              Designed the information architecture and model of an
+              orfanization's assets.
+            </li>
+            <li>
+              Advised and evaluated data retention and governance using cloud
+              technologies.
+            </li>
+          </ul>
 
-          <article>
-            <h3>MASTER OF COMPUTER SCIENCE</h3>
-            <h3>Georgia Stare University - Atlanta, Georgia</h3>
-          </article>
-        </section>
-      </div>
+          <h3>Sr. SOFTWARE DEVELOPER</h3>
+          <h3>Deloitte - London, UK</h3>
+          <span>Feb 2015 - jun 2017</span>
+          <ul>
+            <li>
+              Designed REST Web Service in C# and Java using Layer pattern.
+            </li>
+            <li>Defined SOAP Web Services using Postman an Fiddler.</li>
+            <li>
+              Built containerized web servers, load balancers and DNS Using
+              Docker.
+            </li>
+            <li>
+              Developed automantion scripts using Powershell, VBScript and Java.
+            </li>
+          </ul>
+        </article>
+        <article>
+          <div class="boerder-bottom">
+            <h2>Education</h2>
+          </div>
+          <h3>MASTER OF COMPUTER SCIENCE</h3>
+          <h3>Stevens Institute of Technology - New Jersey</h3>
+          <ul>
+            <li>Minor in Information Engineering</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>MASTER OF COMPUTER SCIENCE</h3>
+          <h3>Georgia Stare University - Atlanta, Georgia</h3>
+        </article>
+      </section>
       <!-- FIM CONTEUDO PRINCIPAL -->
       <!-- LATERAL -->
-      <div id="lateral">
-        <section>
-          <h2>Contact</h2>
+      <aside>
+        <article>
+          <div class="boerder-bottom">
+            <h2>Contact</h2>
+          </div>
           <ul>
             <li>kevin.pater@gmail.com</li>
             <li>1-202-555-0135</li>
             <li>Hayward, California</li>
             <li>linkedin.com/in/kevin</li>
           </ul>
-        </section>
-        <section>
-          <h2>Skills</h2>
-          <div class="skill">
-            <div id="skill-name">
-              <ul>
-                <li>Shell Scripting</li>
-                <li>AWS</li>
-                <li>Microdoft Azure</li>
-                <li>Docker</li>
-                <li>Kebernetes</li>
-                <li>Databases</li>
-                <li>Google Cloud (GCP)</li>
-                <li>Web Services</li>
-                <li>Microsoft SQL Server</li>
-                <li>ASP.NET (C#)</li>
-                <li>JavaScript</li>
-                <li>Testing</li>
-              </ul>
-            </div>
-            <div id="skill-lv">
-              <ul>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-              </ul>
-            </div>
+        </article>
+        <article>
+          <div class="boerder-bottom">
+            <h2>Skills</h2>
           </div>
-        </section>
-        <section>
-          <h2>Personal Skills</h2>
           <div class="skill">
-            <div id="skill-name">
-              <ul>
-                <li>Problem solving</li>
-                <li>Team Leader</li>
-                <li>Planning strategically</li>
-                <li>Excellent oganisational skills</li>
-                <li>Attention to detail</li>
-              </ul>
-            </div>
-            <div id="skill-lv">
-              <ul>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-                <li><span> &#9632; &#9632; &#9632; &#9632; &#9632; </span></li>
-              </ul>
-            </div>
+            <ul>
+              <li>Shell Scripting</li>
+              <li>AWS</li>
+              <li>Microdoft Azure</li>
+              <li>Docker</li>
+              <li>Kebernetes</li>
+              <li>Databases</li>
+              <li>Google Cloud (GCP)</li>
+              <li>Web Services</li>
+              <li>Microsoft SQL Server</li>
+              <li>ASP.NET (C#)</li>
+              <li>JavaScript</li>
+              <li>Testing</li>
+            </ul>
+            <ul>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+            </ul>
           </div>
-        </section>
-        <section>
-          <h2>Referal</h2>
+        </article>
+        <article>
+          <div class="boerder-bottom">
+            <h2>Personal Skills</h2>
+          </div>
+          <div class="skill">
+            <ul>
+              <li>Problem solving</li>
+              <li>Team Leader</li>
+              <li>Planning strategically</li>
+              <li>Excellent oganisational skills</li>
+              <li>Attention to detail</li>
+            </ul>
+
+            <ul>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+              <li>
+                <span> &#9632; &#9632; &#9632; &#9632; &#9632; </span>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <div class="boerder-bottom">
+            <h2>Referal</h2>
+          </div>
           <p>ilable on request.</p>
-        </section>
-      </div>
+        </article>
+      </aside>
       <!-- FIM LATERAL -->
     </div>
     <!-- FIM MEIO -->
